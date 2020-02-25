@@ -106,3 +106,14 @@
         width: 100%;
     }
 }
+
+.product-image {
+    width: 61%;
+    height: 0;
+    padding-bottom: 66.66667%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}

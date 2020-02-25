@@ -65,3 +65,12 @@
     vertical-align: top;
     margin-left:5px
 }
+.product-details-image{
+    width: 50%;
+    padding-top: 63.3%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: 0 auto;
+}

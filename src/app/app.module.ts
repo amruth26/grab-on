@@ -6,16 +6,11 @@ import {FormsModule} from "@angular/forms";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {RouterModule} from "@angular/router";
 import {appRoutes} from "./app.routes";
-import {TopbarComponent} from "./components/topbar/topbar.component";
-import {CartService} from "./services/cart.service";
-import {CartPopupComponent} from "./pages/cart/cart-popup/cart-popup.component";
 import {ProductService} from "./services/products.service";
 
 @NgModule({
     declarations: [
         AppComponent,
-        TopbarComponent,
-        CartPopupComponent
     ],
     imports: [
         BrowserAnimationsModule,
@@ -24,7 +19,7 @@ import {ProductService} from "./services/products.service";
         HttpModule,
         RouterModule.forRoot(appRoutes)
     ],
-    providers: [CartService,ProductService],
+    providers: [ProductService],
     bootstrap: [AppComponent]
 })
 export class AppModule { }

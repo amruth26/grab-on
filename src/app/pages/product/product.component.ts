@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from "@angular/router";
 import {ProductService} from "../../services/products.service";
 import {Product} from "../../model/product";
-import {CartService} from "../../services/cart.service";
 
 @Component({
     selector: 'app-product',
@@ -12,10 +11,10 @@ import {CartService} from "../../services/cart.service";
 export class ProductComponent implements OnInit {
     private sub;
     public product:Product;
+    public Image : string
     quantity: number = 1;
     constructor(private route: ActivatedRoute,
                 private productService:ProductService,
-                private cartService:CartService
     ) { }
 
     ngOnInit() {
@@ -28,14 +27,17 @@ export class ProductComponent implements OnInit {
         this.sub = this.productService.getProducts('./assets/mock-data/products.json')
             .subscribe(res => {
                 this.product = res[id-1];
+                this.Image = 'url(./assets/imgs/' + this.product.image + ')';
             })
     };
     changeQuantity = (newQuantity:number) => {
         this.quantity = newQuantity;
     };
-    addToCart = (product) => {
-        if(this.quantity) this.cartService.addToCart({product,quantity:this.quantity})
-    };
+   
+    ChangeImage(i){
+        this.Image = 'url(./assets/imgs/' + i + ')';
+    }
+
     ngOnDestroy() {
         this.sub.unsubscribe();
     }

@@ -1,6 +1,3 @@
-/**
- * Created by andrew.yang on 7/27/2017.
- */
 export const appRoutes=[
     {
         path:'',
@@ -14,10 +11,6 @@ export const appRoutes=[
     {
         path:'product',
         loadChildren:'./pages/product/product.module#ProductModule'
-    },
-    {
-        path:'cart',
-        loadChildren:'./pages/cart/cart-page.module#CartPageModule'
     },
     {
         path:'**',

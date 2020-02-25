@@ -1,44 +1,124 @@
 [
   {
-    "title": "Blue Stripe Stoneware Plate",
-    "brand": "Kiriko",
-    "price": 40,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "blue-stripe-stoneware-plate.jpg"
+    "title": "Tshirts",
+    "image": "white-tshirt.png",
+    "colors": [
+      {
+        "color": "White",
+        "image": "white-tshirt.png"
+      },
+      {
+        "color": "Black",
+        "image": "black-tshirt.png"
+      },
+      {
+        "color": "Gray",
+        "image": "gray-tshirt.png"
+      },
+      {
+        "color": "Red",
+        "image": "red-tshirt.png"
+      },
+      {
+        "color": "Indigo",
+        "image": "indigo-tshirt.png"
+      }
+    ]
   },
   {
-    "title": "Hand Painted Blue Flat Dish",
-    "brand": "Kiriko",
-    "price": 28,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
-    "image": "hand-painted-blue-flat-dish.jpg"
+    "title": "Mugs",
+    "image": "black-mug.png",
+    "colors": [
+      {
+        "color": "Black",
+        "image": "black-mug.png"
+      },
+      {
+        "color": "Blue",
+        "image": "blue-mug.png"
+      },
+      {
+        "color": "White",
+        "image": "white-mug.png"
+      }
+      
+    ]
   },
   {
-    "title": "Heme",
-    "brand": "Dust & Form",
-    "price": 52,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
-    "image": "heme.jpg"
+    "title": "Cups",
+    "image": "red-cup.png",
+    "colors": [
+      {
+        "color": "Red",
+        "image": "red-cup.png"
+      },
+      {
+        "color": "White",
+        "image": "white-cup.png"
+      },
+      {
+        "color": "Voilet",
+        "image": "voilet-cup.png"
+      }
+      
+    ]
   },
   {
-    "title": "Mashiko-Yaki Green Small Plate",
-    "brand": "Kiriko",
-    "price": 28,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-green-small-plate.jpg"
+    "title": "Trophies",
+    "image": "trophie1.png",
+    "colors": [
+      {
+        "color": "Model 1",
+        "image": "trophie1.png"
+      },
+      {
+        "color": "Model 2",
+        "image": "trophie3.png"
+      },
+      {
+        "color": "Model 3",
+        "image": "trophie3.png"
+      }
+    ]
+      
   },
   {
-    "title": "Mashiko-Yaki Indigo Small Plate",
-    "brand": "Kiriko",
-    "price": 28,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-indigo-small-plate.jpg"
+    "title": "Plaques",
+    "image": "plaque.png",
+    "colors": [
+      {
+        "color": "Model 1",
+        "image": "plaque.png"
+      },
+      {
+        "color": "Model 2",
+        "image": "plaque1.png"
+      },
+      {
+        "color": "Model 3",
+        "image": "plaque2.png"
+      }]
   },
   {
-    "title": "Mashiko-Yaki Saucer",
-    "brand": "Kiriko",
-    "price": 18,
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
-    "image": "mashiko-yaki-saucer.jpg"
+    "title": "Medals",
+    "image": "medal2.png",
+    "colors": [
+      {
+        "color": "Model 1",
+        "image": "medal2.png"
+      },
+      {
+        "color": "Model 2",
+        "image": "medal3.png"
+      },
+      {
+        "color": "Model 3",
+        "image": "medal1.png"
+      },
+      {
+        "color": "Model 4",
+        "image": "medal.png"
+      }
+    ]
   }
 ]
